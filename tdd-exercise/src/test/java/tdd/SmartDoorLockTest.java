@@ -58,7 +58,7 @@ public class SmartDoorLockTest {
     }
 
     @Test
-    public void doesItLockAfterMaxAttempts() {
+    public void doesItBlockAfterMaxAttempts() {
         setPinAndLockDoor();
         blockDoor();
         assertEquals(smartDoorLock.getFailedAttempts(), smartDoorLock.getMaxAttempts());
