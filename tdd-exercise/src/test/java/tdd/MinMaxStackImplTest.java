@@ -26,9 +26,9 @@ class MinMaxStackImplTest {
         assertEquals(0, minMaxStack.size());
     }
 
-    private void pushArray(int[] arr) {
-        for (int e : arr) {
-            minMaxStack.push(e);
+    private void pushArray(int[] array) {
+        for (int value : array) {
+            minMaxStack.push(value);
         }
     }
 
